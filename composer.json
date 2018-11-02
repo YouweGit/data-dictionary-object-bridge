@@ -1,0 +1,26 @@
+{
+    "name": "youwe/data-dictionary-object-bridge",
+    "description": "A connector between the data dictionary bundle and the object bridge bundle. This will allow both exist without depending on each other",
+    "type": "library",
+    "require": {
+        "youwe/data-dictionary": "dev-master",
+        "youwe/pimcore-object-bridge": "^5.0"
+    },
+    "license": "GPL-3",
+    "authors": [
+        {
+            "name": "Paulo Vitor Bettini de Paiva Lima",
+            "email": "p.bettini@youwe.nl"
+        }
+    ],
+    "require-dev": {
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Youwe\\DataDictionaryObjectBridgeBundle\\": "src"
+        }
+    }
+}
