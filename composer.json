@@ -6,7 +6,7 @@
         "youwe/data-dictionary": "dev-master",
         "youwe/pimcore-object-bridge": "^5.0"
     },
-    "license": "GPL-3",
+    "license": "MIT",
     "authors": [
         {
             "name": "Paulo Vitor Bettini de Paiva Lima",
