@@ -3,7 +3,7 @@
     "description": "A connector between the data dictionary bundle and the object bridge bundle. This will allow both exist without depending on each other",
     "type": "library",
     "require": {
-        "youwe/data-dictionary": "dev-master",
+        "youwe/data-dictionary": "~0.0.7",
         "youwe/pimcore-object-bridge": "^5.0"
     },
     "license": "MIT",
